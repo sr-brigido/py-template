@@ -1,0 +1,10 @@
+:root {
+  --md-primary-fg-color:        #01484E;
+  --md-accent-fg-color:         #009697;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
