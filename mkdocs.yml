@@ -1,0 +1,59 @@
+site_name: Padrão de documentação
+theme:
+  name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: "Trocar para modo claro"
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: "Trocar para modo escuro"
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: "Trocar para preferências do sistema"
+  language: pt
+  favicon: img/icon.png
+  logo: img/logo.png
+
+repo_name: "py-template"
+repo_url: "https://github.com/sr-brigido/py-template.git"
+
+watch:
+   - src
+   - tests
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+
+markdown_extensions:
+  - admonition
+  - pymdownx.tasklist
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+nav:
+  - Home: index.md
+  - 'Base dos projetos':
+    - 'Premissas da documentação': premissasDocumentacao.md
+    - 'Entendendo as bibliotecas padrão': libs.md
+
+extra_css:
+  - stylesheets/extra.css
