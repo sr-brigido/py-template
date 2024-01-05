@@ -18,8 +18,8 @@ repos:
       - id: sort-simple-yaml
       - id: name-tests-test
       - id: requirements-txt-fixer
-      # - id: no-commit-to-branch
-      #   args: [--branch, main]
+      - id: no-commit-to-branch
+        args: [--branch, main]
 
   - repo: https://github.com/psf/black
     rev: 23.9.1

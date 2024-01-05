@@ -36,3 +36,9 @@ poetry run task docs    #iniciar a instancia da documentação
 **Uma vez iniciada a documentação, você pode acessá-la [aqui](http://localhost:8000).**
 
 Pressione `Ctrl+C` para fechar a documentação.
+
+## Contato
+
+Para sugestões, dicas e feedbacks utilize o seguinte email:
+
+**Gabriel Ronchi Brigido** - [gabriel.brigido@gbinteligencia.com](mailto:gabriel.brigido@gbinteligencia.com)
