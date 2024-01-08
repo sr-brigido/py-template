@@ -1,12 +1,12 @@
 # Setup básico de projetos em Python
-Este repositório tem como objetivo auxiliar os desenvolvedores de novas tecnologias a construir um melhor código seguindo as boas práticas da [PEP8](https://peps.python.org/pep-0008/).
+Este repositório tem como objetivo auxiliar os desenvolvedores de novas tecnologias a construir um melhor código seguindo as boas práticas baseadas na [PEP8](https://peps.python.org/pep-0008/).
 
 >Versão 1.0.0 | Autor: Gabriel Ronchi Brigido
 
 ## Pré-requisitos
 - Para o versionamento e reastreabiliade do código use o **Git**, instalação [aqui](https://git-scm.com)
 - Para edição facilitada do código use o **VSCode**, instalação [aqui](https://code.visualstudio.com/)
-- Para melhor controle de versões de instalação do *Python* use o **Pyenv**, guia de instalação [aqui](https://www.youtube.com/watch?v=HTx18uyyHw8)
+- Para melhor controle de versões de instalação do *Python* use o **Pyenv**, guia de instalação [aqui](https://www.youtube.com/watch?v=HTx18uyyHw8) e documentação [aqui](https://github.com/pyenv/pyenv)
 - Para gerenciamento de pacotes de dependências use o **Poetry**, consulte a  documentação [aqui](https://python-poetry.org/docs/)
 
 ## Ajustando o ambiente e acessando a documentação

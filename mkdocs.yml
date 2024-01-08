@@ -54,6 +54,7 @@ nav:
   - 'Base dos projetos':
     - 'Premissas da documentação': premissasDocumentacao.md
     - 'Entendendo as bibliotecas padrão': libs.md
+  - 'Replicando o projeto': replicandoProjeto.md
 
 extra_css:
   - stylesheets/extra.css
